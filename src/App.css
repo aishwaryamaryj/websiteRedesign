@@ -1,0 +1,585 @@
+.App {
+  text-align: center;
+}
+
+/* common css */
+
+/* margins */
+
+.m-0 {
+  margin: 0px !important;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.mr-20 {
+  margin-right: 20px !important;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+/* padding */
+
+.p-20 {
+  padding: 20px !important;
+}
+
+.p-10 {
+  padding: 10px !important;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pr-30 {
+  padding-right: 60px;
+}
+
+.pl-10 {
+  padding-left: 10px !important;
+}
+
+.pb-0 {
+  margin-bottom: 0px !important;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px !important;
+}
+
+.pb-30 {
+  padding-bottom: 30px !important;
+}
+
+.pb-40 {
+  padding-bottom: 40px !important;
+}
+
+/* font size */
+
+.font-16 {
+  font-size: 18px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.font-42 {
+  font-size: 42px;
+}
+
+/* font weight */
+
+.font500 {
+  font-weight: 500;
+}
+
+.font600 {
+  font-weight: 600 !important;
+}
+
+.font700 {
+  font-weight: 700;
+}
+
+.font800 {
+  font-weight: 800;
+}
+
+/* text color */
+
+.orangeHeadText {
+  color: #ff6c27;
+}
+
+.whiteText {
+  color: #fff;
+}
+
+.blueText {
+  color: #16223b !important;
+}
+
+.greyText {
+  color: #999;
+  font-size: 18px;
+}
+
+/* common properties */
+
+.block {
+  display: block;
+}
+
+.inlineBlock {
+  display: inline-block;
+}
+
+/* button styles */
+
+.containedBtnOrange {
+  border: 1px solid #ff6c27 !important;
+  font-size: 16px;
+  min-width: 130px !important;
+  background: #ee743b !important;
+  color: #fff !important;
+}
+
+.outlinedBtnOrange {
+  border: 1px solid #ff6c27 !important;
+  color: #ff6c27 !important;
+  font-size: 16px;
+  min-width: 130px !important;
+}
+
+/* home screen main content wrapper  */
+
+.homeScreenMainContent {
+  background: #16223b url("https://www.honorfx.com/assets/images/bg-12.png")
+    no-repeat;
+  text-align: center;
+  background-size: contain;
+  background-position: center;
+}
+
+/* primary header styles */
+
+.primaryHeader {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: #16223b;
+}
+
+.secHeader {
+  margin-top: 78px !important;
+}
+
+.menuStyle {
+  border: 1px solid #16223b !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-bottom: 0px !important;
+  font-size: 16px;
+  min-width: 130px;
+}
+
+.menuStyle:hover,
+.menuStyleLast:hover,
+.menuStyleFirst:hover {
+  color: #ff6c27 !important;
+}
+
+/* carousel styles */
+
+.carouselLayout {
+  background: url("https://www.honorfx.com/assets/images/bg-11.svg") no-repeat
+    right;
+  height: 620px !important;
+  overflow: hidden;
+  /* border: 1px solid #fff; */
+  background-color: #e6e9ee;
+}
+
+.carouselImgStyle {
+  height: 550px;
+  object-fit: fill !important;
+}
+
+.carouselImgStyle1 {
+  width: 620px;
+  margin: 54px 0px 10px 0px;
+  object-fit: fill !important;
+}
+
+.carouselImgStyle2 {
+  margin-top: 44px;
+  width: 671px;
+  object-fit: fill !important;
+}
+
+.carouselTextWrap {
+  background-color: #e6e9ee;
+}
+
+.carouselLayoutWrapper {
+  margin: auto;
+  /* border: 1px solid #ff6c27; */
+  /* background: #e7e9ef; */
+}
+
+/* .slick-slide {
+  margin-left: -250px;
+  margin-right: -250px;
+}
+
+.slick-list {
+  margin-left: -250px;
+  margin-right: -250px;
+  pointer-events: none;
+} */
+
+.featureCardContainer {
+  margin: auto;
+  /* border: 1px solid #7a27ff; */
+  margin: 0px 20px;
+  background: #e7e9ef;
+}
+
+.welcomeText {
+  font-size: 42px;
+  font-weight: 700;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* feature styles */
+
+.featureCard {
+  border-right: 1px solid #fff;
+}
+
+.featureCardWrapper:nth-child(1) {
+  /* border-bottom: 1px solid #fff; */
+}
+
+.featureCard .featureImg {
+  width: 50px;
+}
+
+.featureBigText {
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 80px !important;
+  height: 80px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featureSmallText {
+  font-size: 18px;
+}
+
+/* start trading styles */
+
+.startTradeWrapper {
+  border-right: 1px solid #fff;
+}
+
+.whiteHeadText {
+  font-weight: 700;
+  font-size: 42px;
+  color: #fff;
+  margin: 0px !important;
+}
+
+.startTradeSec {
+  text-align: center;
+  background: url("https://www.honorfx.com/assets/images/bg-4.jpg") no-repeat
+    center/cover;
+  padding: 50px 20px 50px 20px !important;
+}
+
+.secondHead {
+  margin: 0px 0px 20px 0px !important;
+}
+
+.metaTradeWrapper {
+  background-color: #ff6c27;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* account section */
+
+.accountSecContainer {
+  padding: 50px 0px 80px 0px;
+}
+
+.accountTextArea {
+  max-width: 812px;
+  margin: auto;
+}
+
+.accountsCardContainer {
+  margin: 30px 0px 45px 0px;
+  align-items: center;
+}
+
+.accountCard {
+  border-radius: 8px;
+  min-width: 426px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.accountCardHead {
+  height: 60px;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  font-weight: 400;
+  clip-path: polygon(0% 0%, 92% 0, 100% 50%, 92% 100%, 0% 100%);
+  margin: 10px 0px 10px 0px;
+}
+
+.standard {
+  background: url("https://www.honorfx.com/assets/images/account-vector-bg-1.svg")
+      no-repeat center/cover,
+    linear-gradient(90deg, rgb(34, 132, 200), rgb(17, 39, 72) 100%);
+  box-shadow: 7px 7px 10px #0c609a4d;
+}
+
+.premium {
+  background: url("https://www.honorfx.com/assets/images/account-vector-bg-1.svg")
+      no-repeat center/cover,
+    linear-gradient(90deg, rgb(233, 92, 43), rgb(245, 144, 79) 100%);
+  box-shadow: 7px 7px 10px #ee743b38;
+}
+
+.ecn {
+  background: url("https://www.honorfx.com/assets/images/account-vector-bg-1.svg")
+      no-repeat center/cover,
+    linear-gradient(90deg, rgb(17, 39, 72), rgb(14, 26, 44) 100%);
+  box-shadow: 7px 7px 10px #0c609a4d;
+}
+
+.upperAccountText {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 7px;
+}
+
+.accountDetailWrapper {
+  padding: 0px 50px 0px 50px;
+  margin-bottom: 25px;
+}
+
+.containedBigBtnStyle {
+  border: 1px solid #ff6c27 !important;
+  font-size: 21px !important;
+  min-width: 300px !important;
+  padding: 15px 0px 15px 0px !important;
+  background: #ee743b !important;
+  color: #fff !important;
+}
+
+.tableHeadRowElem {
+  padding: 20px !important;
+}
+
+.accountTable {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+/* what can you trade */
+
+.whyHonorFxSec {
+  /* background: #e7e9ef; */
+  background-color: #fff;
+  padding-bottom: 50px;
+}
+
+.whyHonorFxContainer {
+  margin: auto;
+}
+
+.whyHonorTextWrap {
+  margin-bottom: 30px;
+}
+
+.descCard {
+  width: 400px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px !important;
+  cursor: pointer;
+}
+
+.activeCard {
+  background-color: #16223b;
+}
+
+.forex {
+  background: url("https://www.honorfx.com/assets/images/markets/for_bg.png")
+    no-repeat center/cover;
+}
+
+.futures {
+  background: url("https://www.honorfx.com/assets/images/markets/futures_bg.png")
+    no-repeat center/cover;
+}
+
+.stocks {
+  background: url("https://www.honorfx.com/assets/images/markets/stocks_bg.png")
+    no-repeat center/cover;
+}
+
+.indices {
+  background: url("https://www.honorfx.com/assets/images/markets/Group2639.png")
+    no-repeat center/cover;
+}
+
+.descHeadText {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ff6c27;
+  padding-bottom: 10px;
+}
+
+.descriptionText {
+  font-size: 18px;
+  color: #16223b;
+}
+
+.whiteDescText {
+  color: #fff;
+}
+
+/* awards styles */
+
+.platformContainer {
+  background: #16223b
+    url("https://www.honorfx.com/assets/images/awards/award-bg.png") no-repeat;
+  text-align: center;
+  background-size: contain;
+  background-position: center;
+  padding: 50px 0px 0px 0px;
+}
+
+.awardImgStyle {
+  position: absolute;
+  top: 18%;
+  left: -31%;
+  transform: translateY(-50%);
+  max-width: 230px;
+}
+
+.awardIconStyle {
+  width: 50px;
+}
+
+.awardCardTextWrap {
+  width: 300px;
+}
+
+.awardSliderWrapper {
+  position: relative;
+  height: 350px;
+}
+
+.awardContentWrap {
+  padding: 20px;
+}
+
+.awardCardTitle {
+  font-size: 24px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.awardCardSubtitle {
+  font-size: 18px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.awardCardLocation {
+  text-align: left;
+}
+
+.awardCarousel {
+  padding-top: 70px;
+}
+
+/* media styles */
+
+@media (min-width: 1400px) {
+  .headerContainer,
+  .carouselLayoutWrapper {
+    /* max-width: 1500px; */
+  }
+
+  .whyHonorFxContainer {
+    max-width: 1320px;
+  }
+
+  .featureCardContainer {
+    max-width: 1000px;
+  }
+
+  .carouselTextWrap {
+    max-width: 320px !important;
+  }
+  .carouselLayout {
+    /* max-width: 1320px; */
+  }
+}
